@@ -7,8 +7,7 @@ The folowing packages are needed:
 - ppp
 - wvdial --> controling the 3G connection
 
-### Scripts
-How to use the scripts
+### How to use the scripts
 1. clone the git project:
 ```
   pi$ git clone git://github.com/jalcoriza/USBModem.git
