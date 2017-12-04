@@ -8,9 +8,9 @@ The folowing packages are needed:
 
 How to use the scripts
 1. clone the git project:
-
+```
   pi$ git clone git://github.com/jalcoriza/USBModem.git
-
+```
 2. Install the packets needed:
 
   pi$ sudo apt-get update
