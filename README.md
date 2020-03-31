@@ -21,15 +21,15 @@ The folowing packages are needed:
 ```
    pi$ sudo mv /etc/wvdial.conf /etc/wvdial.conf_orginal
 ```
-4. Copy the script needed (for example freedompop)
+4. Copy the script needed (for example movistar)
 ```
-   pi$ sudo cp wvdial.freedompop.conf /etc/
-   pi$ sudo chown root:dialout /etc/wvdial.freedompop.conf
+   pi$ sudo cp wvdial.movistar.conf /etc/
+   pi$ sudo chown root:dialout /etc/wvdial.movistar.conf
 ```
 5. Create a soft link
 ```
   pi$ cd /etc
-  pi$ ln -s wvdial.freedompop.conf wvdial.conf
+  pi$ sudo ln -s wvdial.freedompop.conf wvdial.conf
 ```
 6. If your SIM has a PIN code xyzw, introduce it
 ```
